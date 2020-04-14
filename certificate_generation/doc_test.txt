@@ -1,0 +1,50 @@
+---
+title: ''
+output: pdf_document
+documentclass: "article"
+geometry: margin=1in
+spacing: double
+header-includes:
+- \renewcommand{\familydefault}{\sfdefault}
+---
+
+\pagenumbering{gobble}
+
+\begin{center}
+\includegraphics[height=15mm]{rlb_logo}
+\end{center}
+
+\vspace*{20mm}
+
+\begin{center}
+  {\Huge\bf Teilnahmebest\"atigung} \\
+  \vspace*{20mm}
+  {\LARGE \textsc{<<ATTENDEE_NAME>>}} \\
+  \vspace*{15mm}
+  {\LARGE Schulung Risikomanagement} \\
+  \vspace*{5mm}
+  {\Large ``Konzept und vertiefende Erl\"auterungen zu den Vorlagen zum Quartalsberichts, zur Maßnahmenplanung, zum T\"atigkeitsberichts inkl. Risikoanalyse sowie zur Risikoerkl\"arung''} \\
+  \vspace*{15mm}
+  {\LARGE Informationen zur Veranstaltung} \\ 
+  \vspace*{5mm}
+  {\Large Referent: Stephan Oberarzbacher} \\   
+  {\Large Schulungsort: Raiffeisen Landesbank S\"udtirol} \\      
+  {\Large Dauer: 08:30--13:00 (4,5 Stunden)} \\
+  \vspace*{30mm}
+\end{center}
+
+
+\vspace*{30mm}
+
+\noindent
+\begin{minipage}[h]{0.4\linewidth}
+  \begin{center}
+    Bozen, <<DATE>>
+  \end{center}
+\end{minipage}
+\hspace*{0.1\linewidth}
+\begin{minipage}[h]{0.4\linewidth}
+  \begin{center}
+    Stephan Oberarzbacher \\ Raiffeisen Landesbank S\"udtirol
+  \end{center}
+\end{minipage}
